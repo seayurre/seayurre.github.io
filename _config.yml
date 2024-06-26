@@ -157,7 +157,7 @@ defaults:
   home:
     heading: "발전하는 블로그"
     subheading: "개발 관련 공부 내용을 올리는 블로그입니다. "
-    banner: "/assets/images/banners/IMG_8801.jpg"
+    banner: "https://seayurre.github.io/assets/images/banners/IMG_8801.JPG"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
