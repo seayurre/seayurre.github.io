@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+마크다운 문법을 좀 공부해야 할 필요가 있겠어요...
+
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
 You can find the source code for Minima at GitHub:
