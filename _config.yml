@@ -137,11 +137,11 @@ brand_color: greenblue
 
 # Code badge setting
 # You can enable or disable the code badge and so on
-# code_badge:
-#   enabled: "true"
-#   color: "#fff"
-#   background_color: "#ff4e00"
-#   text_transform: "uppercase"  # ("uppercase", "lowercase", "capitalize")
+code_badge:
+  enabled: "true"
+  color: "#fff"
+  background_color: "#ff4e00"
+  text_transform: "uppercase"  # ("uppercase", "lowercase", "capitalize")
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
@@ -185,13 +185,13 @@ defaults:
 # disqus:
 #   shortname: "Your Disqus username"
 
-# Gitment comments
-# gitment:
-#   username: "Your GitHub username"
-#   repo: "The repo to store comments"
-#   client_id: "Your client ID"
-#   client_secret: "Your client secret"
-#   redirect_uri: "Your redirect url"   # If you use a custom domain name
+Gitment comments
+gitment:
+  username: "Your GitHub username"
+  repo: "The repo to store comments"
+  client_id: "Your client ID"
+  client_secret: "Your client secret"
+  redirect_uri: "Your redirect url"   # If you use a custom domain name
 
 # Utterances comments
 # See https://utteranc.es/
