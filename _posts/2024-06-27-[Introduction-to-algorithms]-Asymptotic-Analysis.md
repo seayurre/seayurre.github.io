@@ -1,8 +1,8 @@
 ---
 layout: post
-title: [Introduction to algorithms] Asymptotic Analysis
+title: "[Introduction to algorithms] Asymptotic Analysis"
 subtitle: 
-categories: [기타]
+categories: [Introduction to algorithms]
 tags: []
 ---
 *based on KAIST CS300 course, CLRS textbook
