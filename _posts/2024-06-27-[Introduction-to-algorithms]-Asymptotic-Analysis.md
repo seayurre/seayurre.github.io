@@ -37,7 +37,7 @@ Worst Case Running Time은 어떤 알고리즘의 실행 시간 $T(n)$의 상한
 Asymptotic Analysis를 통해 알고리즘의 실행 시간 $T(n)$을 분석할 때는 다양한 표기법(Asymptotic Notation)을 사용한다.
 
 #### O-notation(Big-O notation)
->어떤 함수 $g(n)$에 대해서, 모든  $n \geq n_0$ 인  $n$ 에 대해  $0\leq f(n) \leq cg(n)$를 만족하는 어떤 양의 상수  $c, n_0$ 가 존재하면 $f \in O(g) $로 표기한다.
+>어떤 함수 $\,g(n)$에 대해서, 모든  $\,n \geq n_0$ 인  $\,n$ 에 대해  $\,0\leq f(n) \leq cg(n)$를 만족하는 어떤 양의 상수  $\,c, n_0$ 가 존재하면 $f \in O(g) $로 표기한다.
 
 이 때 $g(n)$은 $f(n)$의 **Asymptotic Upper Bound**라고 한다. 
 
@@ -45,13 +45,13 @@ Asymptotic Analysis를 통해 알고리즘의 실행 시간 $T(n)$을 분석할 
 (엄밀하진 않지만) 직관적으로는 'g(n)이 f(n)보다 크거나 같다' 정도로 받아들일 수 있다. 
 
 #### Ω-notation(Big-Omega notation)
->어떤 함수  $g(n)$에 대해서, 모든  $n \geq n_0$인 $n$에 대해  $0\leq cg(n) \leq f(n)$를 만족하는 어떤 양의 상수  $c, n_0$ 가 존재하면 $f \in Ω(g) $로 표기한다.
+>어떤 함수  $\,g(n)$에 대해서, 모든  $\,n \geq n_0$인 $n$에 대해  $\,0\leq cg(n) \leq f(n)$를 만족하는 어떤 양의 상수  $\,c, n_0$ 가 존재하면 $f \in Ω(g) $로 표기한다.
 
 이 때 g(n)은 f(n)의 **Asymptotic Lower Bound**라고 한다. 
 O-notation에서와는 다르게 이번에는 g(n)의 상수배가 어느 시점부터 f(n)보다 항상 작거나 같아지는 경우이다.
 
 #### o-notation(Small-O notation)
->어떤 함수  $g(n)$에 대해서, 어떠한 양의 상수  $c, n_0$에 대해서도  $n \geq n_0$일 때  $0\leq f(n) < cg(n)$ 이면  $f \in o(g) $로 표기한다.
+>어떤 함수  $\,g(n)$에 대해서, 어떠한 양의 상수  $\,c, n_0$에 대해서도  $\,n \geq n_0$일 때  $\,0\leq f(n) < cg(n)$ 이면  $f \in o(g) $로 표기한다.
 
 즉 모든 양의 상수 $c, n_0$에 대해서 저 관계가 성립해야 하는 것이다.
 직관적으로는 'f(n)이 g(n)보다 확실히 작다!!' 라고 생각할 수 있다. 
@@ -59,7 +59,7 @@ O-notation에서와는 다르게 이번에는 g(n)의 상수배가 어느 시점
 이 때는 '**f(n) is asymptotic smaller than g(n)**'이라고 표현한다. 
 
 #### ⍵-notation(Small-Omega notation)
->어떤 함수  $g(n)$에 대해서, 어떠한 양의 상수  $c, n_0$에 대해서도  $n \geq n_0$일 때  $0\leq cg(n) < f(n)$ 이면  $f \in \omega(g) $로 표기한다.
+>어떤 함수  $\,g(n)$에 대해서, 어떠한 양의 상수  $\,c, n_0$에 대해서도  $\,n \geq n_0$일 때  $\,0\leq cg(n) < f(n)$ 이면  $f \in \omega(g) $로 표기한다.
 
 이 경우 역시 직관적으로 'f(n)이 g(n)보다는 확실히 크다!!' 라고 생각할 수 있고, '**f(n) is asymptotic larger than g(n)**'이라고 표현한다. 
 
@@ -68,7 +68,7 @@ Big-O와 Small-O, Big-Omega와 Small-Omega의 정의에서 그냥 등호 하나�
   
     
 #### Θ-notation(Big-Theta notation)
->어떤 함수 $g(n)$에 대해서, 모든  $n \geq n_0$인  $n$에 대해  $c_1 g(n)\leq f(n) \leq c_2 g(n)$를 만족하는 어떤 양의 상수  $c_1, c_2, n_0$ 가 존재하면 $f \in \theta(g) $로 표기한다.
+>어떤 함수 $\,g(n)$에 대해서, 모든  $\,n \geq n_0$인  $n$에 대해  $\,c_1 g(n)\leq f(n) \leq c_2 g(n)$를 만족하는 어떤 양의 상수  $\,c_1, c_2, n_0$ 가 존재하면 $f \in \theta(g) $로 표기한다.
 
 g(n)을 f(n)에 대한 **asymptotic tight bound**라고 한다. 
 
