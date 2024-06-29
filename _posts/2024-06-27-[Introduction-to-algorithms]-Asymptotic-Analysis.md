@@ -4,6 +4,7 @@ title: "[Introduction to algorithms] Asymptotic Analysis"
 subtitle: 
 categories: [Introduction to algorithms]
 tags: []
+use_math : true
 ---
 *based on KAIST CS300 course, CLRS textbook
 
