@@ -18,7 +18,7 @@ tags: []
 어떤 input size $n$에 대해서 실행 시간 $T(n)$이 최대가 되는 경우이다.  
 
 - Average Case(sometimes)
-어떤 input size $n$에 대해서 $T(n)$의 기댓값을 Average case running time이라 한다. 
+어떤 input size $$n$$에 대해서 $$T(n)$$의 기댓값을 Average case running time이라 한다. 
 Input이 어떠한 통계적인 분포를 따른다고 가정하고, 이를 이용해서 분석한다.  
 
 - Best Case(bogus)
